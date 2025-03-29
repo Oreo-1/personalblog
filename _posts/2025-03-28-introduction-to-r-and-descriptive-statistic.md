@@ -9,8 +9,8 @@ tags:
     - Statistics
 ---
 
-# What in the world is R programming language
-The R programming language created by Ross Ihaka and Robert Gentleman in 1993 is an open-source language primarily used for statistical computing, data analysis, and graphical visualization. It is widely used by statisticians, data scientists, and researchers. And of course, a student who just got an assignment by their lecturer.
+# What in the world is R programming language?
+The R programming language created by Ross Ihaka and Robert Gentleman in 1993 is an open-source language primarily used for statistical computing, data analysis, and graphical visualization. It's widely used by statisticians, data scientists, and researchers. And of course, a student who just got an assignment by their lecturer.
 
 ## How to install and use the R programming language
 - First, head to the [CRAN website](https://cran.r-project.org/) and pick a version based on your current operating system

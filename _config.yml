@@ -2,10 +2,10 @@
 title: "[ Oreo's Blog ]" # actual title
 SEOTitle: Oreo's Blog # browser tab
 header-img: img/hollow-knight.png
-email: hynduf@gmail.com
-description: "idrk"
+email: ""
+description: "my personal blog 🍪"
 keyword: "Aryo, @aryo, oroe's blog, Arch Linux" 
-url: "https://oreo-1.github.io" # your host, for absolute URL
+url: "https://oreo1-blog.pages.dev/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
