@@ -2,7 +2,7 @@
 Hi there 👋, I'm Aryo.
 a.k.a oreo.
 
-- 👨‍🎓 I am a student at [Universitas Ciputra Makassar](http://codeforces.com/profile/_LNHTD_).
+- 👨‍🎓 I am a student at [Universitas Ciputra Makassar](https://www.ciputramakassar.ac.id/).
 - 💜 I like pretty things. Aesthetically pleasing things to see.
 - ✨ I'm currently interested in becoming a front-end developer.
 

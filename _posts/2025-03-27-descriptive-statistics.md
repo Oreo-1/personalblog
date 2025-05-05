@@ -6,6 +6,7 @@ date: 2025-03-27
 author: "oreo"
 header-img: "assets/statisticmemeidk.webp"
 header-mask: 0.7
+mathjax: true
 tags: 
     - Statistics
 ---
@@ -49,31 +50,43 @@ Technically, they all measures the "average" of the distribution (which confuses
 ## Central Tendency Example
 Say, these are the weight of luggage presented by airline passengers at the check-in (measured to the nearest kg).
 
-```
+$
 18, 23, 20, 21, 24, 23, 20, 20, 15, 19, 24
-```
+$
 
 ### 1. **Mean (Arithmetic Average)**
 The mean is calculated as:
-- Mean = (∑ X) / n
-where:
-- ∑ X is the sum of all values.
-- n is the total number of values.
+
+$
+\text{Mean} = \frac{\sum X_i}{N}
+$
+
+$
+= \frac{18 + 23 + 20 + 21 + 24 + 23 + 20 + 20 + 15 + 19 + 24}{11}
+$
+
+$   
+= \frac{227}{11} \approx 20.64
+$
 
 For our dataset:
 
-**Mean** = (18 + 23 + 20 + 21 + 24 + 23 + 20 + 20 + 15 + 19 + 24) / 11 = 227/11 ≈ 20.64
+$
+\mu = \frac{18 + 23 + 20 + 21 + 24 + 23 + 20 + 20 + 15 + 19 + 24}{11} = \frac{227}{11} \approx 20.64
+$
 
 ### 2. **Median (Middle Value)**
 The median is the middle value when data is arranged in ascending order:
 
-```
+$
 15, 18, 19, 20, 20, 20, 21, 23, 23, 24, 24
-```
+$
 
 Since we have **11 numbers (odd count)**, the median is the 6th value:
 
-**Median** = 20
+$
+\text{Median} = 20
+$
 
 ### 3. **Mode (Most Frequent Value)**
 The mode is the most frequently occurring number(s) in the dataset.
@@ -93,7 +106,9 @@ Some of the common measures of dispersion are range, which is the difference bet
 
 ### 1. **Range**
 The **range** is the simplest measure of dispersion, representing the difference between the largest and smallest values in a dataset. It's calculated as:
-- `Range = Maximum Value = Minimum Value`
+
+$\text{Range = Maximum Value = Minimum Value}$
+
 - Example:
     - For the dataset: [4, 7, 2, 9, 5]
     - Maximum = 9  
@@ -104,41 +119,80 @@ The **range** is the simplest measure of dispersion, representing the difference
 **Variance** measures how far each data point is from the mean (average) of the dataset. It quantifies the average squared deviation from the mean. It has two formulas:
 - **Population Variance** (for entire dataset): 
 
-- `σ^2 = ∑(Xi-μ)^2 / N`
-Where:  
-Xi = individual data points,  
-μ = population mean,  
-N = population size.
+    $\sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2$
+
+    Where:
+    - $\sigma^2$ = population variance  
+    - $N$ = number of observations  
+    - $x_i$ = each individual value  
+    - $\mu$ = population mean
 
 and
 
-- **Sample Variance** (for a sample of the dataset):  
-- `s^2 = ∑(Xi-x̄)^2 / n`
-Where:  
-x̄ = sample mean,  
-n = sample size.
+- **Sample Variance** (for a sample of the dataset):
 
-- Example:
+    $s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2$
+
+    Where:  
+    - $s^2$ = sample variance  
+    - $n$ = number of sample observations  
+    - $x_i$ = each sample value  
+    - $\bar{x}$ = sample mean
+
+Example:
 For the dataset: [4, 7, 2, 9, 5]  
-    - **Mean** (μ) = (4 + 7 + 2 + 9 + 5) / 5 = 5.4 
-    - **Squared Deviations**:  
-(4-5.4)^2 = 1.96,  
-(7-5.4)^2 = 2.56,  
-(2-5.4)^2 = 11.56,  
-(9-5.4)^2 = 12.96,  
-(5-5.4)^2 = 0.16.  
-    - **Variance** (σ^2) = (1.96 + 2.56 + 11.56 + 12.96 + 0.16) / 5 = 5.84
+Mean:
+
+$
+\mu = \frac{4 + 7 + 2 + 9 + 5}{5} = 5.4
+$
+
+Squared deviations:
+
+$
+(4 - 5.4)^2 = 1.96
+$
+
+$
+(7 - 5.4)^2 = 2.56
+$
+
+$
+(2 - 5.4)^2 = 11.56
+$
+
+$
+(9 - 5.4)^2 = 12.96
+$
+
+$
+(5 - 5.4)^2 = 0.16
+$
+
+Variance:
+
+$
+\sigma^2 = \frac{1.96 + 2.56 + 11.56 + 12.96 + 0.16}{5} = 5.84
+$
 
 ### 3. **Standard Deviation**
 **Standard deviation** is the square root of the variance, providing a measure of dispersion in the same units as the original data.
 
-- Population Standard Deviation:  
-    - σ = √σ^2
-- Sample Standard Deviation:  
-    - s = √s^2
+$\sigma = \sqrt{\sigma^2}$
+
+Sample Standard Deviation:
+
+$s = \sqrt{s^2}$
+
 - Example:
-Using the variance from above (\(\sigma^2 = 5.84\)):  
-    - σ = √5.84 ≈ 2.42
+
+    Using the variance from above:
+
+    $\sigma^2 = 5.84$
+
+    Then the population standard deviation is:
+
+    $\sigma = \sqrt{5.84} \approx 2.42$
 
 # Materials
 ## Videos to Watch:
