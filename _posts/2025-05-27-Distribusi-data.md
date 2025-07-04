@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Memahami Distribusi Data dan Distribusi Normal
+title: Memahami Distribusi Data dan Distribusi Normal e
 date: 2025-05-27 09:00:00 +0800
 tags: [statistika]
 mathjax: true
