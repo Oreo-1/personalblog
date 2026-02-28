@@ -26,7 +26,7 @@ Poin utama dari IoT terletak pada kemampuannya untuk menjadi jembatan antara dun
 
 # B. Arsitektur IoT
 
-Untuk memahami bagaimana sistem Internet of Things bekerja dari hulu ke hilir, pertama-tama kita harus melihat arsitekturnya. Para ahli biasanya membagi arsitektur IoT ke dalam empat atau lima lapisan utama:
+Untuk memahami bagaimana sistem Internet of Things bekerja dengan baik, pertama-tama kita harus melihat arsitekturnya. Para ahli biasanya membagi arsitektur IoT ke dalam empat atau lima lapisan utama:
 
 ![fla](/img/four-layer-architecture.png)
 
