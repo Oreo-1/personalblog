@@ -2,7 +2,7 @@
 layout: post
 title: Regresi Linier Sederhana - Konsep Dasar dan Estimasi
 date: 2025-05-25 14:00:00 +0800
-tags: [statistika]
+tags: [Statistics, 🇮🇩]
 mathjax: true
 image:
   path: /assets/img/simplelinier.png

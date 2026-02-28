@@ -2,7 +2,7 @@
 layout: post
 title: Regresi Linier Lanjutan - Inferensi, Model Multipel, dan Variabel Kategori
 date: 2025-05-26 10:00:00 +0800
-tags: [statistika]
+tags: [Statistics, 🇮🇩]
 mathjax: true
 image:
   path: /assets/img/regresi.jpg

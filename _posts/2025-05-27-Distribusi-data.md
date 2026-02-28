@@ -2,7 +2,7 @@
 layout: post
 title: Memahami Distribusi Data dan Distribusi Normal e
 date: 2025-05-27 09:00:00 +0800
-tags: [statistika]
+tags: [Statistics, 🇮🇩]
 mathjax: true
 image:
   path: /assets/img/distribusi.png

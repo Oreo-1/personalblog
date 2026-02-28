@@ -2,7 +2,7 @@
 layout: post
 title: Uji Hipotesis Satu Arah (One-Tailed) dan Dua Arah (Two-Tailed)
 date: 2025-05-23 11:00:00 +0800
-tags: [statistika]
+tags: [Statistics, 🇮🇩]
 mathjax: true
 image:
   path: /assets/img/12tailed.png
