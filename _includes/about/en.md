@@ -6,7 +6,7 @@ a.k.a oreo.
 - 💜 I like pretty things. Aesthetically pleasing things to see.
 - ✨ I'm currently interested in becoming a front-end developer.
 
-💿 Running Windows 11 as my daily driver. I hope one day i got the courage to switch to Linux entirely. That or my windows got wiped out completely whether by the SSD burning or mysteriously wiped out (i hope). Whichever comes first.
+~~💿 Running Windows 11 as my daily driver. I hope one day i got the courage to switch to Linux entirely. That or my windows got wiped out completely whether by the SSD burning or mysteriously wiped out (i hope). Whichever comes first.~~ guess what-
 
 ### FOSS Enthusiast 🔓
 I like my software like my coffee—preferably open-source, but I won't refuse a Starbucks. I'm a FOSS enthusiast, but i don't mind proprietary.
